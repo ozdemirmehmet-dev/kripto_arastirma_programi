@@ -105,3 +105,28 @@ En az bir kombinasyon geçerse Aşama C'ye geçmek için kullanıcıdan onay ist
 - 1s mumlar son işlem fiyatıdır, orta fiyat değildir; spread içi zıplama (bid-ask bounce) küçük coinlerde sahte negatif otokorelasyon üretebilir. B4 yalnız gecikme ölçeği içindir, işlem kararı için kullanılmaz.
 - Hayatta kalma yanlılığı: Bugün listede olan coinler kullanılıyor. S1 için etkisi sınırlı (ilişki ölçümü, coin seçimi sonuca bağlı değil), sonuçta yazılır.
 - Kümelenme kuralları ve 500 mumluk pencere ölçümden önce seçildi; değiştirilmez.
+
+---
+
+## Ek 1 (2026-10-17, kullanıcı onaylı): Rastgele test yöntemi ve B5 tanımlarının tamamlanması
+
+**Gerekçe.** Ara rapor 1'de (commit `607b5d8`) §6.2'deki karıştırma testi, B2'de 24 kombinasyonun hepsinde %100 verdi. HAC t değeri 0,5 olan XRP 1m de buna dahil. Günlük blok karıştırma, BTC ile altcoinin ortak oynaklık kümelenmesini bozuyor ve sıfır dağılımını yapay olarak daraltıyor. Bu yüzden test ayırt edici değil. B3 için planlanan karıştırma da aynı zaafı taşıyor. Aşağıdaki değişiklik kriteri **sıkılaştırır**. Eski karıştırma sonuçları da raporlanmaya devam eder.
+
+**E1.1 – §6.2'nin yerine geçen kural (B2, B3, B5).** "Rastgele test %95" kriteri **wild blok bootstrap** ile değerlendirilir. Tekrar sayısı 9.999, ağırlıklar blok başına Rademacher (±1). Bloklar: 1s için 1 saat, 1m/5m/15m/1h için 1 UTC günü.
+- B2: Sıfır altında kısıtlı model `r_alt_{t+1} = a + b2·r_alt_t + e` kurulur. Bootstrap verisi `y* = ŷ + w_blok·e`. Gözlenen b1, b1* dağılımının %95. yüzdeliğinin üstünde olmalı (`olcum.b2_wild_bootstrap`).
+- B3 ve B5: Sıfır altında olay getirilerinin ortalaması 0'dır. Bootstrap verisi `y*_i = w_blok(i)·y_i`, yani aynı gündeki olaylar aynı işareti alır. Gözlenen ortalama, ortalama* dağılımının %95. yüzdeliğinin üstünde olmalı.
+- 1s ve 1m B2 için bu test ara rapor 1'de zaten hesaplandı (kayıt defteri #37–#60). O sonuçlar kullanılır.
+
+**E1.2 – B3 ayrıntıları (§5'te belirsiz kalanlar).**
+- "İki yarı" = olayların zaman ekseninde veri döneminin orta noktasından önce ve sonra kalanları.
+- Ana ölçüm fiyatı ön kayda uygun olarak spottur. Kapı 1 spot sonuçlarına göre değerlendirilir. 1m ve 1h'de vadeli tekrar edilir. Spot geçip vadeli geçmezse bu açıkça raporlanır ve Aşama C kararında belirleyicidir (işlem vadelide yapılacak).
+- Olaylar BTC spot serisinden bir kez belirlenir ve tüm altcoinlerde ortaktır. Altcoinin olay mumunda ya da sonraki h+1 mumda eksik verisi varsa o olay o coin için atılır.
+
+**E1.3 – B5 tanımlarının tamamlanması (§5'te ana ufuk, maliyet ve olay sayısı yoktu).**
+- Olay: 1h spot, `|z_t| > 2` (z = 720 mumluk rolling z-skoru). Aynı coinde önceki olaydan sonraki 24 saat içinde gelen olay sayılmaz.
+- Pozisyon getirisi (işaretli): `y = −sign(z_t) · [x(t+1+h) − x(t+1)]`, x = ln(alt_open / btc_open). Giriş t+1 açılışında, çıkış t+1+h açılışında. Pozitif değer dengeye dönüş demektir.
+- **Ana ufuk h = 24 saat.** h = 1 ve 6 tanımlayıcıdır.
+- Kapı 1 (coin bazında, 12 test, ayrı BH ailesi, q = %10): iki yarıda aynı işaret ve küçük/büyük ≥ 0,5; wild blok bootstrap %95 üstü; BH anlamlı; **en az 50 olay**; ortalama y ≥ 2 × çift işlem gidiş-dönüş maliyeti.
+- Çift işlem maliyeti (vadeli taker, iki bacak): altcoin gidiş-dönüş + BTC gidiş-dönüş. Büyük/Orta: %0,16 + %0,16 = %0,32, **eşik %0,64**. Küçük: %0,20 + %0,16 = %0,36, **eşik %0,72**.
+- Yarı ömür (AR(1), mum cinsinden) tanımlayıcıdır.
+- 1h vadeli fiyatlarla tekrar edilir (kontrol).
