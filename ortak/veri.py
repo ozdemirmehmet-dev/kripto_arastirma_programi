@@ -183,6 +183,14 @@ def _gun_onbellek(piyasa, sembol, aralik, gun: pd.Timestamp) -> Path:
     return VERI_DIZINI / "klines" / piyasa / aralik / sembol / "gunluk" / f"{gun:%Y-%m-%d}.parquet"
 
 
+def _parquet_yaz(df: pd.DataFrame, yol: Path) -> None:
+    """Atomik yazma: yarım kalmış önbellek dosyası oluşmaz."""
+    yol.parent.mkdir(parents=True, exist_ok=True)
+    gecici = yol.with_suffix(".tmp")
+    df.to_parquet(gecici)
+    gecici.replace(yol)
+
+
 def _ay_getir(piyasa, sembol, aralik, ay: pd.Timestamp) -> pd.DataFrame:
     yol = _ay_onbellek(piyasa, sembol, aralik, ay)
     if yol.exists():
@@ -193,8 +201,7 @@ def _ay_getir(piyasa, sembol, aralik, ay: pd.Timestamp) -> pd.DataFrame:
     if df is None:  # toplu dosya yoksa REST ile tamamla
         son = ay + pd.offsets.MonthBegin(1)
         df = _rest_klines(sembol, aralik, _ms(ay), _ms(son), piyasa)
-    yol.parent.mkdir(parents=True, exist_ok=True)
-    df.to_parquet(yol)
+    _parquet_yaz(df, yol)
     return df
 
 
@@ -207,8 +214,7 @@ def _gun_getir(piyasa, sembol, aralik, gun: pd.Timestamp) -> pd.DataFrame:
     df = _vision_zip(url)
     if df is None:
         df = _rest_klines(sembol, aralik, _ms(gun), _ms(gun + pd.Timedelta(days=1)), piyasa)
-    yol.parent.mkdir(parents=True, exist_ok=True)
-    df.to_parquet(yol)
+    _parquet_yaz(df, yol)
     return df
 
 
@@ -282,8 +288,7 @@ def funding_gecmisi(sembol: str, yenile: bool = False) -> pd.DataFrame:
         yeni.index.name = "zaman"
     df = yeni if eski is None else pd.concat([eski, yeni])
     df = df[~df.index.duplicated(keep="last")].sort_index()
-    yol.parent.mkdir(parents=True, exist_ok=True)
-    df.to_parquet(yol)
+    _parquet_yaz(df, yol)
     return df
 
 

@@ -26,8 +26,8 @@ Veri `data/` altında önbelleklenir ve git dışındadır.
 
 | Çalışma | Durum | Ulaştığı kapı | Hüküm | Test sayısı |
 |---|---|---|---|---|
-| S1 BTC → altcoin gecikmesi | Aşama B (ara rapor 1) | — | — | 72 |
-| S2 Funding carry | Ön kayıt onaylı, veri indirildi | — | — | 0 |
+| S1 BTC → altcoin gecikmesi | Kapandı | Kapı 1'de durdu | Gecikme saniyeler düzeyinde; 1m–1h'de en iyi etki maliyet eşiğinin %55'i. Fırsat yok. ([sonuç](calismalar/S1_btc_alt_gecikme/sonuc.md)) | 816 |
+| S2 Funding carry | Ön kayıt onaylı, funding verisi indirildi; Aşama B bekliyor | — | — | 0 |
 | S4 Günlük trend takibi | Başlamadı | — | — | 0 |
 | S3 Aşırı funding sonrası ters hareket | Başlamadı | — | — | 0 |
 | S5 Oynaklık hedefleme | Başlamadı | — | — | 0 |

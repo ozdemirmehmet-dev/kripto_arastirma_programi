@@ -219,3 +219,128 @@ def b2_wild_bootstrap(r_btc: pd.Series, r_alt: pd.Series, aralik: str, n: int = 
     return {"wild_b1": b1, "wild_yuzdelik": istatistik.yuzdelik(b1, sifir),
             "wild_p": float((np.sum(sifir >= b1) + 1) / (n + 1)),
             "wild_sifir_sd": float(sifir.std())}
+
+
+# ---------------------------------------------------------------- Ek 1: wild blok bootstrap (ortalama)
+
+def wild_ortalama(y: np.ndarray, zaman: pd.DatetimeIndex, blok: str, n: int = 9999,
+                  tohum: int | None = None) -> dict:
+    """H0: E[y] = 0. y*_i = w_blok(i)·y_i (aynı bloktaki gözlemler aynı işareti alır)."""
+    y = np.asarray(y, float)
+    if len(y) == 0:
+        return {"wild_yuzdelik": np.nan, "wild_p": np.nan}
+    kod = pd.factorize(pd.DatetimeIndex(zaman).floor(blok))[0]
+    s = np.bincount(kod, weights=y)
+    w = istatistik.rng(tohum).choice([-1.0, 1.0], size=(n, len(s)))
+    sifir = (w @ s) / len(y)
+    gozlenen = y.mean()
+    return {"wild_yuzdelik": istatistik.yuzdelik(gozlenen, sifir),
+            "wild_p": float((np.sum(sifir >= gozlenen) + 1) / (n + 1))}
+
+
+def iki_yari(y: np.ndarray, zaman: pd.DatetimeIndex, orta: pd.Timestamp) -> dict:
+    y = np.asarray(y, float)
+    a = y[zaman < orta]
+    b = y[zaman >= orta]
+    ma = float(a.mean()) if len(a) else np.nan
+    mb = float(b.mean()) if len(b) else np.nan
+    gecti = bool(len(a) and len(b) and ma > 0 and mb > 0
+                 and min(ma, mb) / max(ma, mb) >= 0.5)
+    return {"ilk_yari": ma, "ikinci_yari": mb, "n_ilk": len(a), "n_ikinci": len(b),
+            "yarilar_gecti": gecti}
+
+
+# ---------------------------------------------------------------- B3: olay bazlı
+
+UFUKLAR = (1, 3, 5, 10)
+
+
+def izgara(df: pd.DataFrame, aralik: str, tam: pd.DatetimeIndex | None = None) -> pd.DataFrame:
+    if tam is None:
+        adim = pd.Timedelta(milliseconds=veri.ARALIK_MS[aralik])
+        tam = pd.date_range(df.index[0], df.index[-1], freq=adim)
+    return df[["open", "close"]].reindex(tam)
+
+
+def b3_olay_tablosu(btc: pd.DataFrame, alt: pd.DataFrame, aralik: str, olay_zamanlari,
+                    pencere: int = 500) -> pd.DataFrame:
+    """Her olay için gap, beşte bir için işaretli gap, kapanış ve açılış bazlı işaretli getiriler.
+
+    btc ve alt aynı tam ızgarada olmalı (izgara()). Olay mumunda ya da gereken sonraki
+    mumlarda veri eksikse ilgili değer NaN olur ve o ölçümde atılır.
+    """
+    lc_b, lc_a = np.log(btc["close"]), np.log(alt["close"])
+    r_b, r_a = lc_b.diff(), lc_a.diff()
+    beta = (r_b.rolling(pencere).cov(r_a) / r_b.rolling(pencere).var()).shift(1)
+    lo = np.log(alt["open"]).to_numpy()
+    lc = lc_a.to_numpy()
+    pos = btc.index.get_indexer(olay_zamanlari)
+    pos = pos[pos >= 0]
+    n = len(btc)
+    rb, ra, bv = r_b.to_numpy(), r_a.to_numpy(), beta.to_numpy()
+    satirlar = []
+    for p in pos:
+        sgn = np.sign(rb[p])
+        s = {"zaman": btc.index[p], "yon": sgn, "r_btc": rb[p], "r_alt": ra[p], "beta": bv[p],
+             "gap": ra[p] - bv[p] * rb[p]}
+        s["gap_isaretli"] = sgn * s["gap"]
+        for h in UFUKLAR:
+            s[f"kapanis_h{h}"] = sgn * (lc[p + h] - lc[p]) if p + h < n else np.nan
+            s[f"acilis_h{h}"] = sgn * (lo[p + 1 + h] - lo[p + 1]) if p + 1 + h < n else np.nan
+        satirlar.append(s)
+    t = pd.DataFrame(satirlar)
+    if not t.empty:
+        t = t.set_index("zaman")
+    return t
+
+
+def b3_ozet(t: pd.DataFrame, aralik: str, orta: pd.Timestamp, ana_h: int = 3) -> dict:
+    """Ana istatistik: açılıştan açılışa h=ana_h ortalama işaretli getiri (gap filtresi yok)."""
+    sut = f"acilis_h{ana_h}"
+    d = t.dropna(subset=[sut])
+    y = d[sut].to_numpy()
+    out = {"olay": len(d), "ortalama": float(y.mean()) if len(y) else np.nan,
+           "medyan": float(np.median(y)) if len(y) else np.nan}
+    out.update(wild_ortalama(y, d.index, BLOK[aralik]))
+    out.update(iki_yari(y, d.index, orta))
+    for h in UFUKLAR:
+        out[f"acilis_h{h}_ort"] = float(t[f"acilis_h{h}"].mean())
+        out[f"kapanis_h{h}_ort"] = float(t[f"kapanis_h{h}"].mean())
+    # beşte bir: işaretli gap'e göre (en negatif = en çok geride kalan)
+    dd = d.dropna(subset=["gap_isaretli"])
+    if len(dd) >= 5:
+        q = pd.qcut(dd["gap_isaretli"].rank(method="first"), 5, labels=False)
+        out["q1_geride_ort"] = float(dd.loc[q == 0, sut].mean())
+        out["q2_5_ort"] = float(dd.loc[q > 0, sut].mean())
+        out["q5_onde_ort"] = float(dd.loc[q == 4, sut].mean())
+        out["q1_olay"] = int((q == 0).sum())
+    return out
+
+
+# ---------------------------------------------------------------- B5: ALT/BTC oranı
+
+def b5_olaylar(btc: pd.DataFrame, alt: pd.DataFrame, pencere: int = 720, esik: float = 2.0,
+               sogu: int = 24) -> tuple[pd.DataFrame, pd.Series]:
+    x = np.log(alt["close"]) - np.log(btc["close"])
+    z = istatistik.rolling_z(x, pencere)
+    xo = (np.log(alt["open"]) - np.log(btc["open"])).to_numpy()
+    zv = z.to_numpy()
+    n = len(z)
+    adaylar = np.flatnonzero(np.abs(np.nan_to_num(zv)) > esik)
+    secilen, son = [], -10**12
+    for p in adaylar:
+        if p - son > sogu:
+            secilen.append(p)
+            son = p
+    satirlar = []
+    for p in secilen:
+        sgn = np.sign(zv[p])
+        s = {"zaman": z.index[p], "z": zv[p]}
+        for h in (1, 6, 24):
+            s[f"y_h{h}"] = -sgn * (xo[p + 1 + h] - xo[p + 1]) if p + 1 + h < n else np.nan
+            s[f"dz_h{h}"] = -sgn * (zv[p + h] - zv[p]) if p + h < n else np.nan
+        satirlar.append(s)
+    t = pd.DataFrame(satirlar)
+    if not t.empty:
+        t = t.set_index("zaman")
+    return t, z
