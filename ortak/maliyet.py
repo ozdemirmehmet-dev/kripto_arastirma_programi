@@ -22,19 +22,20 @@ KUCUK_KAYMA_TABAN = 0.0005  # Küçük grup alt sınırı, tek yön
 @dataclass(frozen=True)
 class MaliyetModeli:
     komisyon: dict = field(default_factory=lambda: {k: dict(v) for k, v in VARSAYILAN_KOMISYON.items()})
-    # coin -> ölçülen yarım spread (kesir). Küçük grup için kayma = max(2·yarım spread, taban)
+    # coin ya da (coin, piyasa) -> ölçülen yarım spread (kesir). (coin, piyasa) önceliklidir.
+    # Küçük grup için kayma = max(2·yarım spread, taban)
     olculen_yarim_spread: dict = field(default_factory=dict)
     carpan: float = 1.0  # sağlamlık senaryosu: 1,5x maliyet
 
-    def kayma(self, coin: str, grup: str) -> float:
+    def kayma(self, coin: str, grup: str, piyasa: str | None = None) -> float:
         if grup == "Küçük":
-            yarim = self.olculen_yarim_spread.get(coin, 0.0)
+            yarim = self.olculen_yarim_spread.get((coin, piyasa), self.olculen_yarim_spread.get(coin, 0.0))
             return max(2 * yarim, KUCUK_KAYMA_TABAN)
         return BUYUK_KAYMA
 
     def tek_yon(self, coin: str, grup: str, piyasa: str = "spot", senaryo: str = "taker") -> float:
         """Tek bir alış ya da satışın maliyeti (notional'ın kesri)."""
-        return (self.komisyon[piyasa][senaryo] + self.kayma(coin, grup)) * self.carpan
+        return (self.komisyon[piyasa][senaryo] + self.kayma(coin, grup, piyasa)) * self.carpan
 
     def gidis_donus(self, coin: str, grup: str, piyasa: str = "spot", senaryo: str = "taker") -> float:
         return 2 * self.tek_yon(coin, grup, piyasa, senaryo)

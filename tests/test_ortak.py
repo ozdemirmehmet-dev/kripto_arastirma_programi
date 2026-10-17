@@ -39,6 +39,12 @@ def test_maliyet_kucuk_coin_olculen_spread_ve_taban():
     assert m.olcekli(1.5).tek_yon("BTC", "Referans", "spot") == pytest.approx(0.0013 * 1.5)
 
 
+def test_maliyet_piyasaya_gore_spread():
+    m = maliyet.MaliyetModeli(olculen_yarim_spread={("PEPE", "spot"): 0.0012, ("PEPE", "vadeli"): 0.00001})
+    assert m.tek_yon("PEPE", "Küçük", "spot") == pytest.approx(0.0010 + 0.0024)
+    assert m.tek_yon("PEPE", "Küçük", "vadeli") == pytest.approx(0.0005 + 0.0005)  # taban
+
+
 def test_carry_4_bacak():
     m = maliyet.MaliyetModeli()
     assert m.carry_4_bacak("BTC", "Referans") == pytest.approx(2 * (0.0013 + 0.0008))

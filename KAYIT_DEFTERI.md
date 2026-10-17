@@ -820,3 +820,140 @@ Yapılan **her** anlamlılık testi ve strateji testi bir satır olarak buraya e
 | 814 | 2026-10-17 21:14 | S1 | B5 | tanımlayıcı h=1 (vadeli) | PEPE | 1h | ort=%-0.052, wild %32.6 |
 | 815 | 2026-10-17 21:14 | S1 | B5 | tanımlayıcı h=6 (vadeli) | PEPE | 1h | ort=%-0.103, wild %33.7 |
 | 816 | 2026-10-17 21:14 | S1 | B5 | vadeli kontrol h=24 (BH dışı) | PEPE | 1h | olay=221, ort=%-0.493, wild %13.8 |
+| 817 | 2026-10-17 22:36 | S2 | B | günlük funding ort > 0, 30g blok işaret çevirme (ana test) | BTC | 1d | yıllık %11.48, eşik %10.22, yüzdelik %100.0, BH p=0.00144, yarılar %15.9/%7.1, Kapı 1 kaldı |
+| 818 | 2026-10-17 22:36 | S2 | B | günlük funding ort > 0, 30g blok işaret çevirme (ana test) | ETH | 1d | yıllık %13.70, eşik %10.22, yüzdelik %100.0, BH p=0.00144, yarılar %20.2/%7.2, Kapı 1 kaldı |
+| 819 | 2026-10-17 22:36 | S2 | B | günlük funding ort > 0, 30g blok işaret çevirme (ana test) | SOL | 1d | yıllık %0.24, eşik %10.22, yüzdelik %50.1, BH p=0.557, yarılar %-4.9/%5.4, Kapı 1 kaldı |
+| 820 | 2026-10-17 22:36 | S2 | B | günlük funding ort > 0, 30g blok işaret çevirme (ana test) | XRP | 1d | yıllık %14.43, eşik %10.22, yüzdelik %100.0, BH p=0.00144, yarılar %21.9/%7.0, Kapı 1 kaldı |
+| 821 | 2026-10-17 22:36 | S2 | B | günlük funding ort > 0, 30g blok işaret çevirme (ana test) | BNB | 1d | yıllık %-0.07, eşik %10.22, yüzdelik %48.6, BH p=0.557, yarılar %1.3/%-1.5, Kapı 1 kaldı |
+| 822 | 2026-10-17 22:36 | S2 | B | günlük funding ort > 0, 30g blok işaret çevirme (ana test) | DOGE | 1d | yıllık %12.37, eşik %10.22, yüzdelik %100.0, BH p=0.00144, yarılar %16.7/%8.0, Kapı 1 kaldı |
+| 823 | 2026-10-17 22:36 | S2 | B | günlük funding ort > 0, 30g blok işaret çevirme (ana test) | ADA | 1d | yıllık %13.41, eşik %10.22, yüzdelik %100.0, BH p=0.00144, yarılar %19.9/%6.9, Kapı 1 kaldı |
+| 824 | 2026-10-17 22:36 | S2 | B | günlük funding ort > 0, 30g blok işaret çevirme (ana test) | AVAX | 1d | yıllık %6.84, eşik %10.22, yüzdelik %99.8, BH p=0.0039, yarılar %8.6/%5.1, Kapı 1 kaldı |
+| 825 | 2026-10-17 22:36 | S2 | B | günlük funding ort > 0, 30g blok işaret çevirme (ana test) | LINK | 1d | yıllık %13.62, eşik %10.22, yüzdelik %100.0, BH p=0.00144, yarılar %18.9/%8.4, Kapı 1 kaldı |
+| 826 | 2026-10-17 22:36 | S2 | B | günlük funding ort > 0, 30g blok işaret çevirme (ana test) | NEAR | 1d | yıllık %10.35, eşik %12.17, yüzdelik %100.0, BH p=0.00144, yarılar %12.9/%7.8, Kapı 1 kaldı |
+| 827 | 2026-10-17 22:36 | S2 | B | günlük funding ort > 0, 30g blok işaret çevirme (ana test) | ARB | 1d | yıllık %8.54, eşik %12.39, yüzdelik %100.0, BH p=0.00144, yarılar %13.7/%3.4, Kapı 1 kaldı |
+| 828 | 2026-10-17 22:36 | S2 | B | günlük funding ort > 0, 30g blok işaret çevirme (ana test) | INJ | 1d | yıllık %-1.86, eşik %12.17, yüzdelik %26.7, BH p=0.733, yarılar %-1.1/%-2.6, Kapı 1 kaldı |
+| 829 | 2026-10-17 22:36 | S2 | B | günlük funding ort > 0, 30g blok işaret çevirme (ana test) | PEPE | 1d | yıllık %8.59, eşik %22.16, yüzdelik %100.0, BH p=0.00144, yarılar %15.8/%1.4, Kapı 1 kaldı |
+| 830 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2019 (yükseliş) | BTC | 1d | yıllık %7.46, pozitif ödeme %82 |
+| 831 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2020 (yükseliş) | BTC | 1d | yıllık %17.19, pozitif ödeme %86 |
+| 832 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2021 (yükseliş) | BTC | 1d | yıllık %30.61, pozitif ödeme %93 |
+| 833 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2022 (düşüş) | BTC | 1d | yıllık %4.16, pozitif ödeme %78 |
+| 834 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2023 (yükseliş) | BTC | 1d | yıllık %7.87, pozitif ödeme %90 |
+| 835 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2024 (yükseliş) | BTC | 1d | yıllık %11.92, pozitif ödeme %92 |
+| 836 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2025 (düşüş) | BTC | 1d | yıllık %5.13, pozitif ödeme %87 |
+| 837 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2026 (düşüş) | BTC | 1d | yıllık %2.91, pozitif ödeme %74 |
+| 838 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2019 (yükseliş) | ETH | 1d | yıllık %8.87, pozitif ödeme %95 |
+| 839 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2020 (yükseliş) | ETH | 1d | yıllık %27.41, pozitif ödeme %97 |
+| 840 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2021 (yükseliş) | ETH | 1d | yıllık %37.54, pozitif ödeme %96 |
+| 841 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2022 (düşüş) | ETH | 1d | yıllık %0.79, pozitif ödeme %66 |
+| 842 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2023 (yükseliş) | ETH | 1d | yıllık %8.26, pozitif ödeme %91 |
+| 843 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2024 (yükseliş) | ETH | 1d | yıllık %12.96, pozitif ödeme %96 |
+| 844 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2025 (düşüş) | ETH | 1d | yıllık %4.93, pozitif ödeme %84 |
+| 845 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2026 (düşüş) | ETH | 1d | yıllık %1.96, pozitif ödeme %70 |
+| 846 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2020 (yükseliş) | SOL | 1d | yıllık %-12.59, pozitif ödeme %75 |
+| 847 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2021 (yükseliş) | SOL | 1d | yıllık %28.59, pozitif ödeme %95 |
+| 848 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2022 (düşüş) | SOL | 1d | yıllık %-38.00, pozitif ödeme %54 |
+| 849 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2023 (yükseliş) | SOL | 1d | yıllık %1.30, pozitif ödeme %72 |
+| 850 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2024 (yükseliş) | SOL | 1d | yıllık %13.62, pozitif ödeme %90 |
+| 851 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2025 (düşüş) | SOL | 1d | yıllık %0.35, pozitif ödeme %61 |
+| 852 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2026 (düşüş) | SOL | 1d | yıllık %-0.89, pozitif ödeme %53 |
+| 853 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2020 (yükseliş) | XRP | 1d | yıllık %24.13, pozitif ödeme %95 |
+| 854 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2021 (yükseliş) | XRP | 1d | yıllık %48.14, pozitif ödeme %96 |
+| 855 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2022 (düşüş) | XRP | 1d | yıllık %0.01, pozitif ödeme %61 |
+| 856 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2023 (yükseliş) | XRP | 1d | yıllık %8.20, pozitif ödeme %84 |
+| 857 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2024 (yükseliş) | XRP | 1d | yıllık %14.19, pozitif ödeme %93 |
+| 858 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2025 (düşüş) | XRP | 1d | yıllık %3.53, pozitif ödeme %71 |
+| 859 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2026 (düşüş) | XRP | 1d | yıllık %-0.12, pozitif ödeme %52 |
+| 860 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2020 (yükseliş) | BNB | 1d | yıllık %2.19, pozitif ödeme %38 |
+| 861 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2021 (yükseliş) | BNB | 1d | yıllık %21.72, pozitif ödeme %41 |
+| 862 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2022 (düşüş) | BNB | 1d | yıllık %-12.62, pozitif ödeme %0 |
+| 863 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2023 (yükseliş) | BNB | 1d | yıllık %-8.35, pozitif ödeme %24 |
+| 864 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2024 (yükseliş) | BNB | 1d | yıllık %-3.32, pozitif ödeme %25 |
+| 865 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2025 (düşüş) | BNB | 1d | yıllık %-2.08, pozitif ödeme %17 |
+| 866 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2026 (düşüş) | BNB | 1d | yıllık %2.84, pozitif ödeme %45 |
+| 867 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2020 (yükseliş) | DOGE | 1d | yıllık %10.04, pozitif ödeme %85 |
+| 868 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2021 (yükseliş) | DOGE | 1d | yıllık %38.51, pozitif ödeme %92 |
+| 869 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2022 (düşüş) | DOGE | 1d | yıllık %3.45, pozitif ödeme %74 |
+| 870 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2023 (yükseliş) | DOGE | 1d | yıllık %10.00, pozitif ödeme %90 |
+| 871 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2024 (yükseliş) | DOGE | 1d | yıllık %14.00, pozitif ödeme %90 |
+| 872 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2025 (düşüş) | DOGE | 1d | yıllık %4.34, pozitif ödeme %75 |
+| 873 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2026 (düşüş) | DOGE | 1d | yıllık %3.09, pozitif ödeme %69 |
+| 874 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2020 (yükseliş) | ADA | 1d | yıllık %26.25, pozitif ödeme %94 |
+| 875 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2021 (yükseliş) | ADA | 1d | yıllık %39.92, pozitif ödeme %93 |
+| 876 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2022 (düşüş) | ADA | 1d | yıllık %-0.96, pozitif ödeme %59 |
+| 877 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2023 (yükseliş) | ADA | 1d | yıllık %7.18, pozitif ödeme %83 |
+| 878 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2024 (yükseliş) | ADA | 1d | yıllık %13.95, pozitif ödeme %92 |
+| 879 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2025 (düşüş) | ADA | 1d | yıllık %4.12, pozitif ödeme %76 |
+| 880 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2026 (düşüş) | ADA | 1d | yıllık %1.53, pozitif ödeme %61 |
+| 881 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2020 (yükseliş) | AVAX | 1d | yıllık %-12.73, pozitif ödeme %76 |
+| 882 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2021 (yükseliş) | AVAX | 1d | yıllık %31.05, pozitif ödeme %88 |
+| 883 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2022 (düşüş) | AVAX | 1d | yıllık %-5.18, pozitif ödeme %52 |
+| 884 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2023 (yükseliş) | AVAX | 1d | yıllık %7.45, pozitif ödeme %82 |
+| 885 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2024 (yükseliş) | AVAX | 1d | yıllık %10.53, pozitif ödeme %77 |
+| 886 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2025 (düşüş) | AVAX | 1d | yıllık %0.11, pozitif ödeme %62 |
+| 887 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2026 (düşüş) | AVAX | 1d | yıllık %1.29, pozitif ödeme %64 |
+| 888 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2020 (yükseliş) | LINK | 1d | yıllık %11.06, pozitif ödeme %50 |
+| 889 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2021 (yükseliş) | LINK | 1d | yıllık %43.03, pozitif ödeme %99 |
+| 890 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2022 (düşüş) | LINK | 1d | yıllık %5.94, pozitif ödeme %83 |
+| 891 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2023 (yükseliş) | LINK | 1d | yıllık %10.19, pozitif ödeme %93 |
+| 892 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2024 (yükseliş) | LINK | 1d | yıllık %13.33, pozitif ödeme %90 |
+| 893 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2025 (düşüş) | LINK | 1d | yıllık %5.15, pozitif ödeme %79 |
+| 894 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2026 (düşüş) | LINK | 1d | yıllık %4.64, pozitif ödeme %80 |
+| 895 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2020 (yükseliş) | NEAR | 1d | yıllık %12.15, pozitif ödeme %97 |
+| 896 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2021 (yükseliş) | NEAR | 1d | yıllık %37.66, pozitif ödeme %95 |
+| 897 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2022 (düşüş) | NEAR | 1d | yıllık %-4.23, pozitif ödeme %61 |
+| 898 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2023 (yükseliş) | NEAR | 1d | yıllık %6.85, pozitif ödeme %81 |
+| 899 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2024 (yükseliş) | NEAR | 1d | yıllık %14.01, pozitif ödeme %90 |
+| 900 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2025 (düşüş) | NEAR | 1d | yıllık %2.12, pozitif ödeme %69 |
+| 901 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2026 (düşüş) | NEAR | 1d | yıllık %3.99, pozitif ödeme %74 |
+| 902 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2023 (yükseliş) | ARB | 1d | yıllık %10.84, pozitif ödeme %91 |
+| 903 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2024 (yükseliş) | ARB | 1d | yıllık %15.95, pozitif ödeme %94 |
+| 904 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2025 (düşüş) | ARB | 1d | yıllık %4.90, pozitif ödeme %78 |
+| 905 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2026 (düşüş) | ARB | 1d | yıllık %1.48, pozitif ödeme %62 |
+| 906 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2022 (düşüş) | INJ | 1d | yıllık %-4.23, pozitif ödeme %79 |
+| 907 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2023 (yükseliş) | INJ | 1d | yıllık %-11.80, pozitif ödeme %47 |
+| 908 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2024 (yükseliş) | INJ | 1d | yıllık %14.45, pozitif ödeme %87 |
+| 909 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2025 (düşüş) | INJ | 1d | yıllık %0.77, pozitif ödeme %64 |
+| 910 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2026 (düşüş) | INJ | 1d | yıllık %-12.16, pozitif ödeme %42 |
+| 911 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2023 (yükseliş) | PEPE | 1d | yıllık %10.15, pozitif ödeme %82 |
+| 912 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2024 (yükseliş) | PEPE | 1d | yıllık %20.05, pozitif ödeme %90 |
+| 913 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2025 (düşüş) | PEPE | 1d | yıllık %3.83, pozitif ödeme %72 |
+| 914 | 2026-10-17 22:36 | S2 | B1 | tanımlayıcı yıl 2026 (düşüş) | PEPE | 1d | yıllık %-1.21, pozitif ödeme %61 |
+| 915 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=1g | BTC | 1d | corr=0.827, eğim=0.827 (t=29.6) |
+| 916 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=3g | BTC | 1d | corr=0.709, eğim=2.302 (t=20.8) |
+| 917 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=7g | BTC | 1d | corr=0.536, eğim=4.694 (t=13.1) |
+| 918 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=1g | ETH | 1d | corr=0.802, eğim=0.802 (t=28.6) |
+| 919 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=3g | ETH | 1d | corr=0.675, eğim=2.212 (t=20.0) |
+| 920 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=7g | ETH | 1d | corr=0.544, eğim=4.579 (t=13.3) |
+| 921 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=1g | SOL | 1d | corr=0.493, eğim=0.493 (t=4.5) |
+| 922 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=3g | SOL | 1d | corr=0.121, eğim=0.820 (t=4.8) |
+| 923 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=7g | SOL | 1d | corr=0.079, eğim=1.191 (t=4.7) |
+| 924 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=1g | XRP | 1d | corr=0.767, eğim=0.766 (t=19.2) |
+| 925 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=3g | XRP | 1d | corr=0.615, eğim=2.043 (t=12.7) |
+| 926 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=7g | XRP | 1d | corr=0.511, eğim=4.183 (t=9.0) |
+| 927 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=1g | BNB | 1d | corr=0.770, eğim=0.765 (t=24.3) |
+| 928 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=3g | BNB | 1d | corr=0.541, eğim=1.938 (t=18.6) |
+| 929 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=7g | BNB | 1d | corr=0.318, eğim=3.380 (t=12.5) |
+| 930 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=1g | DOGE | 1d | corr=0.714, eğim=0.714 (t=11.3) |
+| 931 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=3g | DOGE | 1d | corr=0.551, eğim=1.884 (t=9.4) |
+| 932 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=7g | DOGE | 1d | corr=0.379, eğim=3.551 (t=5.3) |
+| 933 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=1g | ADA | 1d | corr=0.787, eğim=0.787 (t=25.2) |
+| 934 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=3g | ADA | 1d | corr=0.618, eğim=2.085 (t=14.6) |
+| 935 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=7g | ADA | 1d | corr=0.501, eğim=4.257 (t=10.2) |
+| 936 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=1g | AVAX | 1d | corr=0.723, eğim=0.712 (t=14.1) |
+| 937 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=3g | AVAX | 1d | corr=0.437, eğim=1.681 (t=7.3) |
+| 938 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=7g | AVAX | 1d | corr=0.347, eğim=3.107 (t=6.0) |
+| 939 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=1g | LINK | 1d | corr=0.751, eğim=0.750 (t=19.1) |
+| 940 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=3g | LINK | 1d | corr=0.627, eğim=2.038 (t=14.2) |
+| 941 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=7g | LINK | 1d | corr=0.494, eğim=4.193 (t=10.0) |
+| 942 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=1g | NEAR | 1d | corr=0.746, eğim=0.746 (t=17.1) |
+| 943 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=3g | NEAR | 1d | corr=0.573, eğim=1.924 (t=10.7) |
+| 944 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=7g | NEAR | 1d | corr=0.444, eğim=3.871 (t=8.1) |
+| 945 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=1g | ARB | 1d | corr=0.840, eğim=0.840 (t=24.0) |
+| 946 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=3g | ARB | 1d | corr=0.721, eğim=2.332 (t=15.1) |
+| 947 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=7g | ARB | 1d | corr=0.585, eğim=4.843 (t=11.2) |
+| 948 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=1g | INJ | 1d | corr=0.609, eğim=0.609 (t=12.1) |
+| 949 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=3g | INJ | 1d | corr=0.360, eğim=1.357 (t=6.4) |
+| 950 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=7g | INJ | 1d | corr=0.226, eğim=2.355 (t=3.6) |
+| 951 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=1g | PEPE | 1d | corr=0.791, eğim=0.791 (t=18.3) |
+| 952 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=3g | PEPE | 1d | corr=0.654, eğim=2.130 (t=11.5) |
+| 953 | 2026-10-17 22:36 | S2 | B2 | tanımlayıcı kalıcılık h=7g | PEPE | 1d | corr=0.530, eğim=4.411 (t=8.0) |

@@ -175,3 +175,17 @@ def yarilar_tutarli(x: pd.Series, istatistik: Callable[[pd.Series], float] = np.
     oran = min(abs(a), abs(b)) / max(abs(a), abs(b)) if max(abs(a), abs(b)) > 0 else 0.0
     return {"ilk_yari": a, "ikinci_yari": b, "ayni_yon": bool(ayni_yon), "buyukluk_orani": oran,
             "gecti": bool(ayni_yon and oran >= benzer_oran)}
+
+
+def blok_isaret_cevirme(x: np.ndarray, blok_uzunluk: int, n: int = 1000,
+                        tohum: int | None = None) -> dict:
+    """H0: E[x] = 0 (simetrik). Ardışık `blok_uzunluk` gözlemlik bloklar aynı rastgele
+    işareti alır (block sign-flip). Gözlenen ortalamanın sıfır dağılımındaki yüzdeliği."""
+    x = np.asarray(x, float)
+    kod = np.arange(len(x)) // blok_uzunluk
+    s = np.bincount(kod, weights=x)
+    w = rng(tohum).choice([-1.0, 1.0], size=(n, len(s)))
+    sifir = (w @ s) / len(x)
+    gozlenen = float(x.mean())
+    return {"gozlenen": gozlenen, "yuzdelik": yuzdelik(gozlenen, sifir),
+            "p": float((np.sum(sifir >= gozlenen) + 1) / (n + 1))}
