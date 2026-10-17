@@ -1625,3 +1625,186 @@ Yapılan **her** anlamlılık testi ve strateji testi bir satır olarak buraya e
 | 1619 | 2026-10-17 22:56 | S4 | B2 | tanımlayıcı yıl 2024 N=120 M=20 | PEPE | 1d | D=%-15.09 (n=366) |
 | 1620 | 2026-10-17 22:56 | S4 | B2 | tanımlayıcı yıl 2025 N=120 M=20 | PEPE | 1d | D=%-10.29 (n=365) |
 | 1621 | 2026-10-17 22:56 | S4 | B2 | tanımlayıcı yıl 2026 N=120 M=20 | PEPE | 1d | D=%-7.36 (n=268) |
+| 1622 | 2026-10-17 23:31 | S3 | B | aşırı yuksek funding, h=3g, beta ayarlı, havuz (ana test) | 13 coin | 1h | olay=827, ort=%-1.903, eşik=%0.34, wild %0.0, BH p=1, yarılar %-2.760/%-1.215, Kapı 1 kaldı |
+| 1623 | 2026-10-17 23:31 | S3 | B | aşırı dusuk funding, h=3g, beta ayarlı, havuz (ana test) | 13 coin | 1h | olay=1591, ort=%-0.036, eşik=%0.34, wild %44.3, BH p=1, yarılar %0.096/%-0.099, Kapı 1 kaldı |
+| 1624 | 2026-10-17 23:31 | S3 | B | tanımlayıcı yuksek h=1g (vadeli, ana) | havuz | 1h | olay=827, ort=%-0.813, wild %0.3 |
+| 1625 | 2026-10-17 23:31 | S3 | B | tanımlayıcı yuksek h=7g (vadeli, ana) | havuz | 1h | olay=827, ort=%-3.719, wild %0.0 |
+| 1626 | 2026-10-17 23:31 | S3 | B | tanımlayıcı dusuk h=1g (vadeli, ana) | havuz | 1h | olay=1594, ort=%-0.037, wild %38.3 |
+| 1627 | 2026-10-17 23:31 | S3 | B | tanımlayıcı dusuk h=7g (vadeli, ana) | havuz | 1h | olay=1588, ort=%0.006, wild %51.4 |
+| 1628 | 2026-10-17 23:31 | S3 | B | tanımlayıcı yuksek h=1g (vadeli, ek_delist_dahil) | havuz | 1h | olay=836, ort=%-0.840, wild %0.3 |
+| 1629 | 2026-10-17 23:31 | S3 | B | tanımlayıcı yuksek h=3g (vadeli, ek_delist_dahil) | havuz | 1h | olay=836, ort=%-1.921, wild %0.0 |
+| 1630 | 2026-10-17 23:31 | S3 | B | tanımlayıcı yuksek h=7g (vadeli, ek_delist_dahil) | havuz | 1h | olay=836, ort=%-3.822, wild %0.0 |
+| 1631 | 2026-10-17 23:31 | S3 | B | tanımlayıcı dusuk h=1g (vadeli, ek_delist_dahil) | havuz | 1h | olay=1617, ort=%-0.185, wild %20.0 |
+| 1632 | 2026-10-17 23:31 | S3 | B | tanımlayıcı dusuk h=3g (vadeli, ek_delist_dahil) | havuz | 1h | olay=1613, ort=%-0.250, wild %24.6 |
+| 1633 | 2026-10-17 23:31 | S3 | B | tanımlayıcı dusuk h=7g (vadeli, ek_delist_dahil) | havuz | 1h | olay=1609, ort=%-0.288, wild %29.9 |
+| 1634 | 2026-10-17 23:31 | S3 | B | tanımlayıcı yuksek h=1g (spot, ana) | havuz | 1h | olay=828, ort=%-0.839, wild %0.3 |
+| 1635 | 2026-10-17 23:31 | S3 | B | tanımlayıcı yuksek h=3g (spot, ana) | havuz | 1h | olay=828, ort=%-1.944, wild %0.0 |
+| 1636 | 2026-10-17 23:31 | S3 | B | tanımlayıcı yuksek h=7g (spot, ana) | havuz | 1h | olay=828, ort=%-3.779, wild %0.0 |
+| 1637 | 2026-10-17 23:31 | S3 | B | tanımlayıcı dusuk h=1g (spot, ana) | havuz | 1h | olay=1594, ort=%-0.053, wild %33.5 |
+| 1638 | 2026-10-17 23:31 | S3 | B | tanımlayıcı dusuk h=3g (spot, ana) | havuz | 1h | olay=1591, ort=%-0.059, wild %40.9 |
+| 1639 | 2026-10-17 23:31 | S3 | B | tanımlayıcı dusuk h=7g (spot, ana) | havuz | 1h | olay=1588, ort=%-0.007, wild %50.2 |
+| 1640 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (spot) | ADA | 1h | olay=143, ort=%0.194 |
+| 1641 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (spot) | ADA | 1h | olay=142, ort=%0.346 |
+| 1642 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (spot) | ADA | 1h | olay=142, ort=%1.058 |
+| 1643 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (spot) | ADA | 1h | olay=68, ort=%-1.741 |
+| 1644 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (spot) | ADA | 1h | olay=68, ort=%-3.035 |
+| 1645 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (spot) | ADA | 1h | olay=68, ort=%-5.680 |
+| 1646 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (vadeli) | ADA | 1h | olay=143, ort=%0.210 |
+| 1647 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (vadeli) | ADA | 1h | olay=142, ort=%0.362 |
+| 1648 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (vadeli) | ADA | 1h | olay=142, ort=%1.084 |
+| 1649 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (vadeli) | ADA | 1h | olay=68, ort=%-1.717 |
+| 1650 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (vadeli) | ADA | 1h | olay=68, ort=%-3.005 |
+| 1651 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (vadeli) | ADA | 1h | olay=68, ort=%-5.632 |
+| 1652 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (spot) | ARB | 1h | olay=87, ort=%-0.407 |
+| 1653 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (spot) | ARB | 1h | olay=87, ort=%-0.525 |
+| 1654 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (spot) | ARB | 1h | olay=87, ort=%-1.554 |
+| 1655 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (spot) | ARB | 1h | olay=24, ort=%0.151 |
+| 1656 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (spot) | ARB | 1h | olay=24, ort=%-1.825 |
+| 1657 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (spot) | ARB | 1h | olay=24, ort=%-2.444 |
+| 1658 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (vadeli) | ARB | 1h | olay=87, ort=%-0.403 |
+| 1659 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (vadeli) | ARB | 1h | olay=87, ort=%-0.500 |
+| 1660 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (vadeli) | ARB | 1h | olay=87, ort=%-1.538 |
+| 1661 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (vadeli) | ARB | 1h | olay=24, ort=%0.148 |
+| 1662 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (vadeli) | ARB | 1h | olay=24, ort=%-1.817 |
+| 1663 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (vadeli) | ARB | 1h | olay=24, ort=%-2.417 |
+| 1664 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (spot) | AVAX | 1h | olay=134, ort=%-0.306 |
+| 1665 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (spot) | AVAX | 1h | olay=134, ort=%0.040 |
+| 1666 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (spot) | AVAX | 1h | olay=134, ort=%0.246 |
+| 1667 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (spot) | AVAX | 1h | olay=52, ort=%-1.646 |
+| 1668 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (spot) | AVAX | 1h | olay=52, ort=%-3.864 |
+| 1669 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (spot) | AVAX | 1h | olay=52, ort=%-10.028 |
+| 1670 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (vadeli) | AVAX | 1h | olay=134, ort=%-0.283 |
+| 1671 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (vadeli) | AVAX | 1h | olay=134, ort=%0.068 |
+| 1672 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (vadeli) | AVAX | 1h | olay=134, ort=%0.278 |
+| 1673 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (vadeli) | AVAX | 1h | olay=52, ort=%-1.617 |
+| 1674 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (vadeli) | AVAX | 1h | olay=52, ort=%-3.826 |
+| 1675 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (vadeli) | AVAX | 1h | olay=52, ort=%-9.961 |
+| 1676 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (spot) | BNB | 1h | olay=115, ort=%0.266 |
+| 1677 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (spot) | BNB | 1h | olay=115, ort=%0.561 |
+| 1678 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (spot) | BNB | 1h | olay=115, ort=%1.528 |
+| 1679 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (spot) | BNB | 1h | olay=131, ort=%-0.460 |
+| 1680 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (spot) | BNB | 1h | olay=131, ort=%-0.338 |
+| 1681 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (spot) | BNB | 1h | olay=131, ort=%-0.974 |
+| 1682 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (vadeli) | BNB | 1h | olay=115, ort=%0.324 |
+| 1683 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (vadeli) | BNB | 1h | olay=115, ort=%0.627 |
+| 1684 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (vadeli) | BNB | 1h | olay=115, ort=%1.611 |
+| 1685 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (vadeli) | BNB | 1h | olay=131, ort=%-0.447 |
+| 1686 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (vadeli) | BNB | 1h | olay=131, ort=%-0.305 |
+| 1687 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (vadeli) | BNB | 1h | olay=131, ort=%-0.939 |
+| 1688 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (spot) | BTC | 1h | olay=142, ort=%0.362 |
+| 1689 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (spot) | BTC | 1h | olay=141, ort=%0.981 |
+| 1690 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (spot) | BTC | 1h | olay=140, ort=%1.213 |
+| 1691 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (spot) | BTC | 1h | olay=79, ort=%0.103 |
+| 1692 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (spot) | BTC | 1h | olay=79, ort=%-0.176 |
+| 1693 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (spot) | BTC | 1h | olay=79, ort=%-1.200 |
+| 1694 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (vadeli) | BTC | 1h | olay=142, ort=%0.364 |
+| 1695 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (vadeli) | BTC | 1h | olay=141, ort=%0.991 |
+| 1696 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (vadeli) | BTC | 1h | olay=140, ort=%1.225 |
+| 1697 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (vadeli) | BTC | 1h | olay=79, ort=%0.127 |
+| 1698 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (vadeli) | BTC | 1h | olay=79, ort=%-0.140 |
+| 1699 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (vadeli) | BTC | 1h | olay=79, ort=%-1.158 |
+| 1700 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (spot) | DOGE | 1h | olay=139, ort=%0.140 |
+| 1701 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (spot) | DOGE | 1h | olay=139, ort=%0.567 |
+| 1702 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (spot) | DOGE | 1h | olay=139, ort=%0.483 |
+| 1703 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (spot) | DOGE | 1h | olay=58, ort=%-2.033 |
+| 1704 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (spot) | DOGE | 1h | olay=58, ort=%-4.141 |
+| 1705 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (spot) | DOGE | 1h | olay=58, ort=%-4.207 |
+| 1706 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (vadeli) | DOGE | 1h | olay=139, ort=%0.176 |
+| 1707 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (vadeli) | DOGE | 1h | olay=139, ort=%0.600 |
+| 1708 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (vadeli) | DOGE | 1h | olay=139, ort=%0.528 |
+| 1709 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (vadeli) | DOGE | 1h | olay=58, ort=%-1.975 |
+| 1710 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (vadeli) | DOGE | 1h | olay=58, ort=%-4.072 |
+| 1711 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (vadeli) | DOGE | 1h | olay=58, ort=%-4.135 |
+| 1712 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (spot) | ETH | 1h | olay=126, ort=%-0.332 |
+| 1713 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (spot) | ETH | 1h | olay=126, ort=%-0.320 |
+| 1714 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (spot) | ETH | 1h | olay=125, ort=%-0.613 |
+| 1715 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (spot) | ETH | 1h | olay=74, ort=%-0.521 |
+| 1716 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (spot) | ETH | 1h | olay=74, ort=%-0.450 |
+| 1717 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (spot) | ETH | 1h | olay=74, ort=%-0.670 |
+| 1718 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (vadeli) | ETH | 1h | olay=126, ort=%-0.323 |
+| 1719 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (vadeli) | ETH | 1h | olay=126, ort=%-0.307 |
+| 1720 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (vadeli) | ETH | 1h | olay=125, ort=%-0.601 |
+| 1721 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (vadeli) | ETH | 1h | olay=74, ort=%-0.507 |
+| 1722 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (vadeli) | ETH | 1h | olay=74, ort=%-0.429 |
+| 1723 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (vadeli) | ETH | 1h | olay=74, ort=%-0.651 |
+| 1724 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (vadeli) | FTT | 1h | olay=7, ort=%0.046 |
+| 1725 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (vadeli) | FTT | 1h | olay=7, ort=%-36.899 |
+| 1726 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (vadeli) | FTT | 1h | olay=7, ort=%-69.366 |
+| 1727 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (spot) | INJ | 1h | olay=84, ort=%-0.075 |
+| 1728 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (spot) | INJ | 1h | olay=84, ort=%-0.344 |
+| 1729 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (spot) | INJ | 1h | olay=84, ort=%-0.263 |
+| 1730 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (spot) | INJ | 1h | olay=45, ort=%1.194 |
+| 1731 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (spot) | INJ | 1h | olay=45, ort=%-1.096 |
+| 1732 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (spot) | INJ | 1h | olay=45, ort=%-2.150 |
+| 1733 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (vadeli) | INJ | 1h | olay=84, ort=%-0.042 |
+| 1734 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (vadeli) | INJ | 1h | olay=84, ort=%-0.302 |
+| 1735 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (vadeli) | INJ | 1h | olay=84, ort=%-0.203 |
+| 1736 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (vadeli) | INJ | 1h | olay=45, ort=%1.208 |
+| 1737 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (vadeli) | INJ | 1h | olay=45, ort=%-1.057 |
+| 1738 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (vadeli) | INJ | 1h | olay=45, ort=%-2.117 |
+| 1739 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (spot) | LINK | 1h | olay=137, ort=%0.233 |
+| 1740 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (spot) | LINK | 1h | olay=137, ort=%-0.022 |
+| 1741 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (spot) | LINK | 1h | olay=136, ort=%0.214 |
+| 1742 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (spot) | LINK | 1h | olay=65, ort=%-0.603 |
+| 1743 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (spot) | LINK | 1h | olay=65, ort=%-0.980 |
+| 1744 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (spot) | LINK | 1h | olay=65, ort=%-1.312 |
+| 1745 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (vadeli) | LINK | 1h | olay=137, ort=%0.249 |
+| 1746 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (vadeli) | LINK | 1h | olay=137, ort=%-0.006 |
+| 1747 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (vadeli) | LINK | 1h | olay=136, ort=%0.224 |
+| 1748 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (vadeli) | LINK | 1h | olay=65, ort=%-0.571 |
+| 1749 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (vadeli) | LINK | 1h | olay=65, ort=%-0.940 |
+| 1750 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (vadeli) | LINK | 1h | olay=65, ort=%-1.272 |
+| 1751 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (vadeli) | LUNA | 1h | olay=16, ort=%-15.062 |
+| 1752 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (vadeli) | LUNA | 1h | olay=15, ort=%-5.910 |
+| 1753 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (vadeli) | LUNA | 1h | olay=14, ort=%0.896 |
+| 1754 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (vadeli) | LUNA | 1h | olay=9, ort=%-3.314 |
+| 1755 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (vadeli) | LUNA | 1h | olay=9, ort=%-3.623 |
+| 1756 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (vadeli) | LUNA | 1h | olay=9, ort=%-13.348 |
+| 1757 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (spot) | NEAR | 1h | olay=128, ort=%-0.148 |
+| 1758 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (spot) | NEAR | 1h | olay=128, ort=%-1.178 |
+| 1759 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (spot) | NEAR | 1h | olay=128, ort=%-1.668 |
+| 1760 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (spot) | NEAR | 1h | olay=52, ort=%-0.759 |
+| 1761 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (spot) | NEAR | 1h | olay=52, ort=%-4.237 |
+| 1762 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (spot) | NEAR | 1h | olay=52, ort=%-8.734 |
+| 1763 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (vadeli) | NEAR | 1h | olay=128, ort=%-0.122 |
+| 1764 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (vadeli) | NEAR | 1h | olay=128, ort=%-1.145 |
+| 1765 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (vadeli) | NEAR | 1h | olay=128, ort=%-1.627 |
+| 1766 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (vadeli) | NEAR | 1h | olay=51, ort=%-0.656 |
+| 1767 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (vadeli) | NEAR | 1h | olay=51, ort=%-4.112 |
+| 1768 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (vadeli) | NEAR | 1h | olay=51, ort=%-8.498 |
+| 1769 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (spot) | PEPE | 1h | olay=84, ort=%-0.488 |
+| 1770 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (spot) | PEPE | 1h | olay=83, ort=%-0.338 |
+| 1771 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (spot) | PEPE | 1h | olay=83, ort=%0.022 |
+| 1772 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (spot) | PEPE | 1h | olay=40, ort=%-1.499 |
+| 1773 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (spot) | PEPE | 1h | olay=40, ort=%-2.308 |
+| 1774 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (spot) | PEPE | 1h | olay=40, ort=%-4.290 |
+| 1775 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (vadeli) | PEPE | 1h | olay=84, ort=%-0.481 |
+| 1776 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (vadeli) | PEPE | 1h | olay=83, ort=%-0.291 |
+| 1777 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (vadeli) | PEPE | 1h | olay=83, ort=%0.042 |
+| 1778 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (vadeli) | PEPE | 1h | olay=40, ort=%-1.468 |
+| 1779 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (vadeli) | PEPE | 1h | olay=40, ort=%-2.350 |
+| 1780 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (vadeli) | PEPE | 1h | olay=40, ort=%-4.328 |
+| 1781 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (spot) | SOL | 1h | olay=116, ort=%-0.262 |
+| 1782 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (spot) | SOL | 1h | olay=116, ort=%-0.458 |
+| 1783 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (spot) | SOL | 1h | olay=116, ort=%-0.498 |
+| 1784 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (spot) | SOL | 1h | olay=54, ort=%-2.161 |
+| 1785 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (spot) | SOL | 1h | olay=54, ort=%-4.293 |
+| 1786 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (spot) | SOL | 1h | olay=54, ort=%-9.427 |
+| 1787 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (vadeli) | SOL | 1h | olay=116, ort=%-0.282 |
+| 1788 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (vadeli) | SOL | 1h | olay=116, ort=%-0.455 |
+| 1789 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (vadeli) | SOL | 1h | olay=116, ort=%-0.669 |
+| 1790 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (vadeli) | SOL | 1h | olay=54, ort=%-2.169 |
+| 1791 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (vadeli) | SOL | 1h | olay=54, ort=%-4.228 |
+| 1792 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (vadeli) | SOL | 1h | olay=54, ort=%-9.305 |
+| 1793 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (spot) | XRP | 1h | olay=159, ort=%-0.191 |
+| 1794 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (spot) | XRP | 1h | olay=159, ort=%-0.509 |
+| 1795 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (spot) | XRP | 1h | olay=159, ort=%-0.839 |
+| 1796 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (spot) | XRP | 1h | olay=86, ort=%-0.980 |
+| 1797 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (spot) | XRP | 1h | olay=86, ort=%-1.971 |
+| 1798 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (spot) | XRP | 1h | olay=86, ort=%-3.835 |
+| 1799 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=1g (vadeli) | XRP | 1h | olay=159, ort=%-0.190 |
+| 1800 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=3g (vadeli) | XRP | 1h | olay=159, ort=%-0.506 |
+| 1801 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin dusuk h=7g (vadeli) | XRP | 1h | olay=159, ort=%-0.838 |
+| 1802 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (vadeli) | XRP | 1h | olay=86, ort=%-0.956 |
+| 1803 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (vadeli) | XRP | 1h | olay=86, ort=%-1.941 |
+| 1804 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (vadeli) | XRP | 1h | olay=86, ort=%-3.799 |

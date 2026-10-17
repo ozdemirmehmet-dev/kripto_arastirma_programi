@@ -1,0 +1,3 @@
+piyasa,evren,yon,h,olay,coin_sayisi,ortalama,medyan,ham_ortalama,funding_alinan_ort,esik,wild_yuzdelik,wild_p,hafta_blok,ilk_yari,ikinci_yari,n_ilk,n_ikinci,yarilar_gecti,bh_anlamli,bh_p,k_olay,k_yarilar,k_wild,k_bh,k_maliyet,kapi1
+vadeli,ana,yuksek,3,827,13,-0.019025643383096095,-0.0013509120660472503,-0.02474371507563984,0.00348070586457072,0.003354776299879082,0.0,1.0,154,-0.027595469339759923,-0.012154846101936428,368,459,False,False,1.0,True,False,False,False,False,False
+vadeli,ana,dusuk,3,1591,13,-0.0003555822311813263,-0.0027971253913221146,0.0011263182297275602,0.0006171684978001442,0.00339208045254557,44.264426442644265,0.5574,277,0.0009561815020817183,-0.0009888474817221057,518,1073,False,False,1.0,True,False,False,False,False,False
