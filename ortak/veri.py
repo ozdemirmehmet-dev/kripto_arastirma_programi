@@ -66,7 +66,13 @@ def tum_coinler() -> list[str]:
 
 def _get(url: str, params: dict | None = None, deneme: int = 5) -> requests.Response:
     for i in range(deneme):
-        r = _oturum.get(url, params=params, timeout=30)
+        try:
+            r = _oturum.get(url, params=params, timeout=30)
+        except (requests.ConnectionError, requests.Timeout):
+            if i == deneme - 1:
+                raise
+            time.sleep(5 * (i + 1))
+            continue
         if r.status_code in (418, 429):
             bekle = int(r.headers.get("Retry-After", 10 * (i + 1)))
             time.sleep(bekle)
@@ -253,7 +259,8 @@ def funding_gecmisi(sembol: str, yenile: bool = False) -> pd.DataFrame:
     eski = pd.read_parquet(yol) if yol.exists() else None
     if eski is not None and not yenile and time.time() - yol.stat().st_mtime < 6 * 3600:
         return eski
-    bas = 0 if eski is None or eski.empty else int(eski["fundingTime"].iloc[-1]) + 1
+    # startTime=0 Binance'te "gönderilmedi" sayılır ve yalnız son 500 kayıt döner; 1 ile başla
+    bas = 1 if eski is None or eski.empty else int(eski["fundingTime"].iloc[-1]) + 1
     satirlar = []
     while True:
         veri = _get_json(f"{VADELI_REST}/fapi/v1/fundingRate",

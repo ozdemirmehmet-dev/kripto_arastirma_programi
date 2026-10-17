@@ -26,8 +26,8 @@ Veri `data/` altında önbelleklenir ve git dışındadır.
 
 | Çalışma | Durum | Ulaştığı kapı | Hüküm | Test sayısı |
 |---|---|---|---|---|
-| S1 BTC → altcoin gecikmesi | Ön kayıt taslağı | — | — | 0 |
-| S2 Funding carry | Ön kayıt taslağı | — | — | 0 |
+| S1 BTC → altcoin gecikmesi | Aşama B (ara rapor 1) | — | — | 72 |
+| S2 Funding carry | Ön kayıt onaylı, veri indirildi | — | — | 0 |
 | S4 Günlük trend takibi | Başlamadı | — | — | 0 |
 | S3 Aşırı funding sonrası ters hareket | Başlamadı | — | — | 0 |
 | S5 Oynaklık hedefleme | Başlamadı | — | — | 0 |
