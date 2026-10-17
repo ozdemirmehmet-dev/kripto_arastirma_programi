@@ -1,0 +1,7 @@
+# Veri git dışında
+data/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.parquet
