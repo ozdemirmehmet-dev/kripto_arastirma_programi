@@ -30,7 +30,15 @@ Veri `data/` altında önbelleklenir ve git dışındadır.
 | S2 Funding carry | Kapandı | Kapı 1'de durdu | Prim 2021'den beri eridi; son 12 ayda en iyi coin yıllık %4,6 brüt, USDT %4'ün altında. Fırsat yok. ([sonuç](calismalar/S2_funding_carry/sonuc.md)) | 137 |
 | S4 Günlük trend takibi | Kapandı | Kapı 1'de durdu | Sinyal çoğu coinde pozitif ama 2021'e bağımlı; BH sonrası 0/78 anlamlı, ikinci yarıda zayıf. Güvenilir fırsat yok. ([sonuç](calismalar/S4_trend_takibi/sonuc.md)) | 668 |
 | S3 Aşırı funding sonrası ters hareket | Kapandı | Kapı 1'de durdu | Ters hareket yok; yüksek funding sonrası alt'lar ortalamada yükselmeye devam ediyor ama kalın kuyruk ve 2021'e bağlı. Fırsat yok. ([sonuç](calismalar/S3_asiri_funding/sonuc.md)) | 183 |
-| S5 Oynaklık hedefleme | Başlamadı | — | — | 0 |
-| S6 Gün/saat etkisi | Başlamadı | — | — | 0 |
+| S5 Oynaklık hedefleme (yalnız al-tut) | Kapandı | Kapı 1'de durdu | Pozisyonu küçültmekten öte fayda yok; alfa sıfırdan ayırt edilemiyor (0/4). Fırsat yok. ([sonuç](calismalar/S5_oynaklik_hedefleme/sonuc.md)) | 28 |
+| S6 Gün/saat etkisi | Kapandı | Kapı 1'de durdu | BH sonrası 0/96; en güçlü aday (21:00 UTC) maliyetin beşte biri. Filtre adayı yok. ([sonuç](calismalar/S6_zaman_etkisi/sonuc.md)) | 99 |
+
+## Program özeti (2026-10-18)
+
+- **Bulunan fırsat: 0.** Altı çalışmanın altısı da Kapı 1'de kapandı. Hiçbiri strateji testine (Aşama C) ulaşmadı. `firsat_kartlari/` boş.
+- **Toplam test/kırılım: 1.931** (`KAYIT_DEFTERI.md`). Bunların 313'ü ön kayıtlı ana testtir (BH aileleri: S1 60 + 48 + 12, S2 13, S3 2, S4 78, S5 4, S6 96); geri kalanı tanımlayıcı kırılımlar ve kontrollerdir.
+- **Çoklu test açısından güvenilirlik:** Bu kadar test arasında ham p < 0,05 olan çok sayıda sonuç çıktı (örn. S4'te 17, S6'da 14). Ancak hiçbiri kendi BH ailesinde ayakta kalmadı. Ayakta kalan birkaç istatistiksel sonuç da maliyet ya da iki yarı kriterine takıldı (S1 1h ETH, S2 büyük coinler). Hüküm "fırsat yok" olduğu için çoklu test riski sonucu zayıflatmıyor; tersine, yanlış pozitif üretme riskine karşı korunmuş bir olumsuz sonuç.
+- **Ortak örüntü:** Birçok etki (S2 funding primi, S3 yüksek funding sonrası yükseliş, S4 trend sinyali) ağırlıkla 2020–2021 boğa piyasasından geliyor ve sonraki yıllarda zayıflıyor. Kısa zaman dilimli etkiler (S1, S6) gerçek ama maliyetin çok altında.
+- **Yan gözlemler (kanıt değil, yalnız hipotez adayı; ayrı ön kayıt ve bağımsız veri gerekir):** S1 – BTC'de büyük saatlik hareket sonrası kısa süreli devam; S3 – yüksek funding sonrası altcoin "mani devamı" (kalın kuyruklu, medyan ~0). İkisi de sonradan görüldü; ikisi için de bu veri yeniden kullanılamaz.
 
 > Eğitim ve araştırma amaçlıdır, yatırım tavsiyesi değildir.

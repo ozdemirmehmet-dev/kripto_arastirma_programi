@@ -1808,3 +1808,130 @@ Yapılan **her** anlamlılık testi ve strateji testi bir satır olarak buraya e
 | 1802 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=1g (vadeli) | XRP | 1h | olay=86, ort=%-0.956 |
 | 1803 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=3g (vadeli) | XRP | 1h | olay=86, ort=%-1.941 |
 | 1804 | 2026-10-17 23:31 | S3 | B | tanımlayıcı coin yuksek h=7g (vadeli) | XRP | 1h | olay=86, ort=%-3.799 |
+| 1805 | 2026-10-18 12:29 | S5 | B3 | alfa>0 V20 (ana test) | BTC | 1w | alfa yıllık %1.09, eşik %0.92, boot p05 %-7.76, BH p=0.42, yarılar %0.09/%3.39, Kapı 1 kaldı |
+| 1806 | 2026-10-18 12:29 | S5 | B3 | alfa>0 V60 (ana test) | BTC | 1w | alfa yıllık %2.61, eşik %0.32, boot p05 %-5.98, BH p=0.42, yarılar %1.45/%3.38, Kapı 1 kaldı |
+| 1807 | 2026-10-18 12:29 | S5 | B3 | alfa>0 V20 (ana test) | ETH | 1w | alfa yıllık %3.76, eşik %1.03, boot p05 %-6.41, BH p=0.42, yarılar %1.31/%10.84, Kapı 1 kaldı |
+| 1808 | 2026-10-18 12:29 | S5 | B3 | alfa>0 V60 (ana test) | ETH | 1w | alfa yıllık %1.80, eşik %0.27, boot p05 %-5.71, BH p=0.42, yarılar %4.39/%2.53, Kapı 1 kaldı |
+| 1809 | 2026-10-18 12:29 | S5 | B1 | tanımlayıcı oynaklık kalıcılığı V20 | BTC | 1w | corr=0.44, eğim=0.52 |
+| 1810 | 2026-10-18 12:29 | S5 | B1 | tanımlayıcı oynaklık kalıcılığı V60 | BTC | 1w | corr=0.43, eğim=0.60 |
+| 1811 | 2026-10-18 12:29 | S5 | B1 | tanımlayıcı oynaklık kalıcılığı V20 | ETH | 1w | corr=0.36, eğim=0.44 |
+| 1812 | 2026-10-18 12:29 | S5 | B1 | tanımlayıcı oynaklık kalıcılığı V60 | ETH | 1w | corr=0.34, eğim=0.51 |
+| 1813 | 2026-10-18 12:29 | S5 | B2 | tanımlayıcı oynaklık dilimi 1 V20 | BTC | 1w | ort R %0.58, std %8.12, oran 0.072 |
+| 1814 | 2026-10-18 12:29 | S5 | B2 | tanımlayıcı oynaklık dilimi 2 V20 | BTC | 1w | ort R %1.80, std %6.97, oran 0.258 |
+| 1815 | 2026-10-18 12:29 | S5 | B2 | tanımlayıcı oynaklık dilimi 3 V20 | BTC | 1w | ort R %-0.02, std %9.45, oran -0.002 |
+| 1816 | 2026-10-18 12:29 | S5 | B2 | tanımlayıcı oynaklık dilimi 4 V20 | BTC | 1w | ort R %0.55, std %9.23, oran 0.060 |
+| 1817 | 2026-10-18 12:29 | S5 | B2 | tanımlayıcı oynaklık dilimi 5 V20 | BTC | 1w | ort R %2.55, std %9.22, oran 0.277 |
+| 1818 | 2026-10-18 12:29 | S5 | B2 | tanımlayıcı oynaklık dilimi 1 V60 | BTC | 1w | ort R %1.11, std %7.82, oran 0.142 |
+| 1819 | 2026-10-18 12:29 | S5 | B2 | tanımlayıcı oynaklık dilimi 2 V60 | BTC | 1w | ort R %0.25, std %7.48, oran 0.033 |
+| 1820 | 2026-10-18 12:29 | S5 | B2 | tanımlayıcı oynaklık dilimi 3 V60 | BTC | 1w | ort R %0.69, std %9.53, oran 0.072 |
+| 1821 | 2026-10-18 12:29 | S5 | B2 | tanımlayıcı oynaklık dilimi 4 V60 | BTC | 1w | ort R %1.41, std %9.93, oran 0.142 |
+| 1822 | 2026-10-18 12:29 | S5 | B2 | tanımlayıcı oynaklık dilimi 5 V60 | BTC | 1w | ort R %4.11, std %8.01, oran 0.513 |
+| 1823 | 2026-10-18 12:29 | S5 | B2 | tanımlayıcı oynaklık dilimi 1 V20 | ETH | 1w | ort R %1.53, std %10.92, oran 0.140 |
+| 1824 | 2026-10-18 12:29 | S5 | B2 | tanımlayıcı oynaklık dilimi 2 V20 | ETH | 1w | ort R %1.69, std %9.85, oran 0.172 |
+| 1825 | 2026-10-18 12:29 | S5 | B2 | tanımlayıcı oynaklık dilimi 3 V20 | ETH | 1w | ort R %1.64, std %13.74, oran 0.120 |
+| 1826 | 2026-10-18 12:29 | S5 | B2 | tanımlayıcı oynaklık dilimi 4 V20 | ETH | 1w | ort R %-0.20, std %7.71, oran -0.026 |
+| 1827 | 2026-10-18 12:29 | S5 | B2 | tanımlayıcı oynaklık dilimi 5 V20 | ETH | 1w | ort R %0.17, std %14.40, oran 0.012 |
+| 1828 | 2026-10-18 12:29 | S5 | B2 | tanımlayıcı oynaklık dilimi 1 V60 | ETH | 1w | ort R %1.34, std %11.35, oran 0.118 |
+| 1829 | 2026-10-18 12:29 | S5 | B2 | tanımlayıcı oynaklık dilimi 2 V60 | ETH | 1w | ort R %-0.33, std %10.06, oran -0.033 |
+| 1830 | 2026-10-18 12:29 | S5 | B2 | tanımlayıcı oynaklık dilimi 3 V60 | ETH | 1w | ort R %1.84, std %11.48, oran 0.160 |
+| 1831 | 2026-10-18 12:29 | S5 | B2 | tanımlayıcı oynaklık dilimi 4 V60 | ETH | 1w | ort R %2.46, std %11.92, oran 0.206 |
+| 1832 | 2026-10-18 12:29 | S5 | B2 | tanımlayıcı oynaklık dilimi 5 V60 | ETH | 1w | ort R %3.15, std %12.69, oran 0.248 |
+| 1833 | 2026-10-18 12:31 | S6 | B | saat_00 ort≠0 (ana test) | BTC | 1h/1d | ort=%-0.0048, yıllar %-0.000/%-0.026/%0.012, yüzdelik %26.0, BH p=0.911, kaldı |
+| 1834 | 2026-10-18 12:31 | S6 | B | saat_01 ort≠0 (ana test) | BTC | 1h/1d | ort=%-0.0105, yıllar %-0.033/%-0.003/%0.005, yüzdelik %52.6, BH p=0.76, kaldı |
+| 1835 | 2026-10-18 12:31 | S6 | B | saat_02 ort≠0 (ana test) | BTC | 1h/1d | ort=%0.0082, yıllar %0.015/%0.027/%-0.018, yüzdelik %42.5, BH p=0.831, kaldı |
+| 1836 | 2026-10-18 12:31 | S6 | B | saat_03 ort≠0 (ana test) | BTC | 1h/1d | ort=%0.0098, yıllar %0.007/%0.006/%0.016, yüzdelik %62.6, BH p=0.691, kaldı |
+| 1837 | 2026-10-18 12:31 | S6 | B | saat_04 ort≠0 (ana test) | BTC | 1h/1d | ort=%0.0066, yıllar %-0.007/%0.028/%-0.001, yüzdelik %43.3, BH p=0.831, kaldı |
+| 1838 | 2026-10-18 12:31 | S6 | B | saat_05 ort≠0 (ana test) | BTC | 1h/1d | ort=%-0.0003, yıllar %-0.002/%0.022/%-0.021, yüzdelik %2.4, BH p=0.979, kaldı |
+| 1839 | 2026-10-18 12:31 | S6 | B | saat_06 ort≠0 (ana test) | BTC | 1h/1d | ort=%0.0018, yıllar %0.048/%-0.021/%-0.022, yüzdelik %9.7, BH p=0.963, kaldı |
+| 1840 | 2026-10-18 12:31 | S6 | B | saat_07 ort≠0 (ana test) | BTC | 1h/1d | ort=%-0.0073, yıllar %-0.017/%-0.015/%0.010, yüzdelik %43.8, BH p=0.831, kaldı |
+| 1841 | 2026-10-18 12:31 | S6 | B | saat_08 ort≠0 (ana test) | BTC | 1h/1d | ort=%0.0309, yıllar %0.048/%0.029/%0.016, yüzdelik %97.7, BH p=0.322, kaldı |
+| 1842 | 2026-10-18 12:31 | S6 | B | saat_09 ort≠0 (ana test) | BTC | 1h/1d | ort=%0.0149, yıllar %0.023/%0.029/%-0.008, yüzdelik %87.4, BH p=0.443, kaldı |
+| 1843 | 2026-10-18 12:31 | S6 | B | saat_10 ort≠0 (ana test) | BTC | 1h/1d | ort=%-0.0048, yıllar %0.008/%-0.003/%-0.019, yüzdelik %31.7, BH p=0.886, kaldı |
+| 1844 | 2026-10-18 12:31 | S6 | B | saat_11 ort≠0 (ana test) | BTC | 1h/1d | ort=%0.0165, yıllar %0.023/%-0.000/%0.027, yüzdelik %87.6, BH p=0.443, kaldı |
+| 1845 | 2026-10-18 12:31 | S6 | B | saat_12 ort≠0 (ana test) | BTC | 1h/1d | ort=%-0.0004, yıllar %0.023/%-0.009/%-0.015, yüzdelik %2.1, BH p=0.979, kaldı |
+| 1846 | 2026-10-18 12:31 | S6 | B | saat_13 ort≠0 (ana test) | BTC | 1h/1d | ort=%-0.0255, yıllar %-0.020/%-0.026/%-0.030, yüzdelik %81.3, BH p=0.472, kaldı |
+| 1847 | 2026-10-18 12:31 | S6 | B | saat_14 ort≠0 (ana test) | BTC | 1h/1d | ort=%-0.0013, yıllar %-0.036/%0.029/%0.003, yüzdelik %4.4, BH p=0.978, kaldı |
+| 1848 | 2026-10-18 12:31 | S6 | B | saat_15 ort≠0 (ana test) | BTC | 1h/1d | ort=%0.0076, yıllar %0.005/%0.002/%0.016, yüzdelik %28.1, BH p=0.896, kaldı |
+| 1849 | 2026-10-18 12:31 | S6 | B | saat_16 ort≠0 (ana test) | BTC | 1h/1d | ort=%-0.0129, yıllar %0.003/%-0.017/%-0.025, yüzdelik %57.4, BH p=0.704, kaldı |
+| 1850 | 2026-10-18 12:31 | S6 | B | saat_17 ort≠0 (ana test) | BTC | 1h/1d | ort=%0.0256, yıllar %0.060/%0.040/%-0.023, yüzdelik %83.8, BH p=0.443, kaldı |
+| 1851 | 2026-10-18 12:31 | S6 | B | saat_18 ort≠0 (ana test) | BTC | 1h/1d | ort=%-0.0016, yıllar %0.024/%0.003/%-0.031, yüzdelik %8.0, BH p=0.971, kaldı |
+| 1852 | 2026-10-18 12:31 | S6 | B | saat_19 ort≠0 (ana test) | BTC | 1h/1d | ort=%-0.0101, yıllar %-0.037/%-0.006/%0.013, yüzdelik %47.0, BH p=0.831, kaldı |
+| 1853 | 2026-10-18 12:31 | S6 | B | saat_20 ort≠0 (ana test) | BTC | 1h/1d | ort=%0.0118, yıllar %0.009/%0.001/%0.025, yüzdelik %62.9, BH p=0.691, kaldı |
+| 1854 | 2026-10-18 12:31 | S6 | B | saat_21 ort≠0 (ana test) | BTC | 1h/1d | ort=%0.0362, yıllar %0.069/%0.011/%0.029, yüzdelik %98.9, BH p=0.322, kaldı |
+| 1855 | 2026-10-18 12:31 | S6 | B | saat_22 ort≠0 (ana test) | BTC | 1h/1d | ort=%0.0332, yıllar %0.051/%0.044/%0.005, yüzdelik %96.5, BH p=0.322, kaldı |
+| 1856 | 2026-10-18 12:31 | S6 | B | saat_23 ort≠0 (ana test) | BTC | 1h/1d | ort=%-0.0278, yıllar %-0.027/%-0.014/%-0.042, yüzdelik %96.9, BH p=0.322, kaldı |
+| 1857 | 2026-10-18 12:31 | S6 | B | gun_0_pzt ort≠0 (ana test) | BTC | 1h/1d | ort=%0.5135, yıllar %1.087/%0.108/%0.346, yüzdelik %97.3, BH p=0.322, kaldı |
+| 1858 | 2026-10-18 12:31 | S6 | B | gun_1_sal ort≠0 (ana test) | BTC | 1h/1d | ort=%-0.2826, yıllar %-0.618/%0.167/%-0.390, yüzdelik %83.5, BH p=0.443, kaldı |
+| 1859 | 2026-10-18 12:31 | S6 | B | gun_2_car ort≠0 (ana test) | BTC | 1h/1d | ort=%0.4691, yıllar %0.595/%0.941/%-0.131, yüzdelik %97.0, BH p=0.322, kaldı |
+| 1860 | 2026-10-18 12:31 | S6 | B | gun_3_per ort≠0 (ana test) | BTC | 1h/1d | ort=%-0.2731, yıllar %0.091/%-0.338/%-0.571, yüzdelik %80.4, BH p=0.48, kaldı |
+| 1861 | 2026-10-18 12:31 | S6 | B | gun_4_cum ort≠0 (ana test) | BTC | 1h/1d | ort=%0.1142, yıllar %0.248/%-0.007/%0.102, yüzdelik %41.1, BH p=0.831, kaldı |
+| 1862 | 2026-10-18 12:31 | S6 | B | gun_5_cmt ort≠0 (ana test) | BTC | 1h/1d | ort=%0.0172, yıllar %0.140/%-0.069/%-0.019, yüzdelik %14.0, BH p=0.951, kaldı |
+| 1863 | 2026-10-18 12:31 | S6 | B | gun_6_paz ort≠0 (ana test) | BTC | 1h/1d | ort=%0.1160, yıllar %0.121/%0.108/%0.119, yüzdelik %52.5, BH p=0.76, kaldı |
+| 1864 | 2026-10-18 12:31 | S6 | B | abd_acilis ort≠0 (ana test) | BTC | 1h/1d | ort=%-0.0283, yıllar %-0.064/%0.032/%-0.053, yüzdelik %70.3, BH p=0.633, kaldı |
+| 1865 | 2026-10-18 12:31 | S6 | B | saat_00 ort≠0 (ana test) | ETH | 1h/1d | ort=%-0.0050, yıllar %0.022/%-0.047/%0.010, yüzdelik %20.1, BH p=0.938, kaldı |
+| 1866 | 2026-10-18 12:31 | S6 | B | saat_01 ort≠0 (ana test) | ETH | 1h/1d | ort=%-0.0249, yıllar %-0.073/%-0.020/%0.019, yüzdelik %75.1, BH p=0.555, kaldı |
+| 1867 | 2026-10-18 12:31 | S6 | B | saat_02 ort≠0 (ana test) | ETH | 1h/1d | ort=%0.0010, yıllar %-0.004/%0.044/%-0.038, yüzdelik %4.2, BH p=0.978, kaldı |
+| 1868 | 2026-10-18 12:31 | S6 | B | saat_03 ort≠0 (ana test) | ETH | 1h/1d | ort=%0.0321, yıllar %0.040/%0.030/%0.027, yüzdelik %96.4, BH p=0.322, kaldı |
+| 1869 | 2026-10-18 12:31 | S6 | B | saat_04 ort≠0 (ana test) | ETH | 1h/1d | ort=%0.0190, yıllar %0.031/%0.025/%0.001, yüzdelik %79.6, BH p=0.48, kaldı |
+| 1870 | 2026-10-18 12:31 | S6 | B | saat_05 ort≠0 (ana test) | ETH | 1h/1d | ort=%0.0037, yıllar %-0.002/%0.044/%-0.031, yüzdelik %19.4, BH p=0.938, kaldı |
+| 1871 | 2026-10-18 12:31 | S6 | B | saat_06 ort≠0 (ana test) | ETH | 1h/1d | ort=%-0.0105, yıllar %0.045/%-0.046/%-0.030, yüzdelik %44.1, BH p=0.831, kaldı |
+| 1872 | 2026-10-18 12:31 | S6 | B | saat_07 ort≠0 (ana test) | ETH | 1h/1d | ort=%-0.0034, yıllar %-0.019/%0.015/%-0.007, yüzdelik %16.5, BH p=0.943, kaldı |
+| 1873 | 2026-10-18 12:31 | S6 | B | saat_08 ort≠0 (ana test) | ETH | 1h/1d | ort=%0.0308, yıllar %0.062/%0.029/%0.001, yüzdelik %93.8, BH p=0.329, kaldı |
+| 1874 | 2026-10-18 12:31 | S6 | B | saat_09 ort≠0 (ana test) | ETH | 1h/1d | ort=%0.0226, yıllar %0.028/%0.051/%-0.011, yüzdelik %88.8, BH p=0.439, kaldı |
+| 1875 | 2026-10-18 12:31 | S6 | B | saat_10 ort≠0 (ana test) | ETH | 1h/1d | ort=%-0.0220, yıllar %-0.013/%-0.016/%-0.036, yüzdelik %82.5, BH p=0.455, kaldı |
+| 1876 | 2026-10-18 12:31 | S6 | B | saat_11 ort≠0 (ana test) | ETH | 1h/1d | ort=%0.0218, yıllar %0.034/%-0.020/%0.052, yüzdelik %84.0, BH p=0.443, kaldı |
+| 1877 | 2026-10-18 12:31 | S6 | B | saat_12 ort≠0 (ana test) | ETH | 1h/1d | ort=%-0.0081, yıllar %-0.006/%0.001/%-0.020, yüzdelik %35.5, BH p=0.872, kaldı |
+| 1878 | 2026-10-18 12:31 | S6 | B | saat_13 ort≠0 (ana test) | ETH | 1h/1d | ort=%-0.0533, yıllar %-0.093/%-0.040/%-0.027, yüzdelik %97.2, BH p=0.322, kaldı |
+| 1879 | 2026-10-18 12:31 | S6 | B | saat_14 ort≠0 (ana test) | ETH | 1h/1d | ort=%-0.0262, yıllar %-0.050/%0.018/%-0.047, yüzdelik %66.9, BH p=0.648, kaldı |
+| 1880 | 2026-10-18 12:31 | S6 | B | saat_15 ort≠0 (ana test) | ETH | 1h/1d | ort=%-0.0086, yıllar %-0.011/%-0.026/%0.010, yüzdelik %24.8, BH p=0.914, kaldı |
+| 1881 | 2026-10-18 12:31 | S6 | B | saat_16 ort≠0 (ana test) | ETH | 1h/1d | ort=%-0.0100, yıllar %-0.006/%-0.008/%-0.016, yüzdelik %33.2, BH p=0.885, kaldı |
+| 1882 | 2026-10-18 12:31 | S6 | B | saat_17 ort≠0 (ana test) | ETH | 1h/1d | ort=%0.0218, yıllar %0.043/%0.028/%-0.005, yüzdelik %57.7, BH p=0.704, kaldı |
+| 1883 | 2026-10-18 12:31 | S6 | B | saat_18 ort≠0 (ana test) | ETH | 1h/1d | ort=%-0.0296, yıllar %-0.011/%-0.037/%-0.041, yüzdelik %89.5, BH p=0.439, kaldı |
+| 1884 | 2026-10-18 12:31 | S6 | B | saat_19 ort≠0 (ana test) | ETH | 1h/1d | ort=%0.0082, yıllar %0.000/%-0.028/%0.053, yüzdelik %28.4, BH p=0.896, kaldı |
+| 1885 | 2026-10-18 12:31 | S6 | B | saat_20 ort≠0 (ana test) | ETH | 1h/1d | ort=%0.0032, yıllar %-0.004/%0.008/%0.006, yüzdelik %12.7, BH p=0.951, kaldı |
+| 1886 | 2026-10-18 12:31 | S6 | B | saat_21 ort≠0 (ana test) | ETH | 1h/1d | ort=%0.0673, yıllar %0.114/%0.032/%0.056, yüzdelik %99.8, BH p=0.24, kaldı |
+| 1887 | 2026-10-18 12:31 | S6 | B | saat_22 ort≠0 (ana test) | ETH | 1h/1d | ort=%0.0389, yıllar %0.033/%0.081/%0.003, yüzdelik %92.1, BH p=0.378, kaldı |
+| 1888 | 2026-10-18 12:31 | S6 | B | saat_23 ort≠0 (ana test) | ETH | 1h/1d | ort=%-0.0311, yıllar %-0.025/%-0.007/%-0.061, yüzdelik %93.4, BH p=0.335, kaldı |
+| 1889 | 2026-10-18 12:31 | S6 | B | gun_0_pzt ort≠0 (ana test) | ETH | 1h/1d | ort=%0.4460, yıllar %1.116/%-0.274/%0.496, yüzdelik %83.4, BH p=0.443, kaldı |
+| 1890 | 2026-10-18 12:31 | S6 | B | gun_1_sal ort≠0 (ana test) | ETH | 1h/1d | ort=%-0.5754, yıllar %-1.116/%-0.138/%-0.461, yüzdelik %96.2, BH p=0.322, kaldı |
+| 1891 | 2026-10-18 12:31 | S6 | B | gun_2_car ort≠0 (ana test) | ETH | 1h/1d | ort=%0.6285, yıllar %0.438/%1.378/%0.073, yüzdelik %96.0, BH p=0.322, kaldı |
+| 1892 | 2026-10-18 12:31 | S6 | B | gun_3_per ort≠0 (ana test) | ETH | 1h/1d | ort=%-0.4527, yıllar %0.312/%-0.391/%-1.280, yüzdelik %85.5, BH p=0.443, kaldı |
+| 1893 | 2026-10-18 12:31 | S6 | B | gun_4_cum ort≠0 (ana test) | ETH | 1h/1d | ort=%-0.0167, yıllar %-0.170/%0.017/%0.101, yüzdelik %4.9, BH p=0.978, kaldı |
+| 1894 | 2026-10-18 12:31 | S6 | B | gun_5_cmt ort≠0 (ana test) | ETH | 1h/1d | ort=%0.1835, yıllar %0.223/%0.275/%0.053, yüzdelik %69.5, BH p=0.633, kaldı |
+| 1895 | 2026-10-18 12:31 | S6 | B | gun_6_paz ort≠0 (ana test) | ETH | 1h/1d | ort=%0.0554, yıllar %0.153/%-0.090/%0.104, yüzdelik %17.7, BH p=0.941, kaldı |
+| 1896 | 2026-10-18 12:31 | S6 | B | abd_acilis ort≠0 (ana test) | ETH | 1h/1d | ort=%-0.0651, yıllar %-0.121/%-0.017/%-0.058, yüzdelik %95.6, BH p=0.322, kaldı |
+| 1897 | 2026-10-18 12:31 | S6 | B | saat_00 ort≠0 (ana test) | SOL | 1h/1d | ort=%0.0048, yıllar %0.052/%-0.052/%0.015, yüzdelik %12.6, BH p=0.951, kaldı |
+| 1898 | 2026-10-18 12:31 | S6 | B | saat_01 ort≠0 (ana test) | SOL | 1h/1d | ort=%0.0229, yıllar %0.015/%0.037/%0.016, yüzdelik %57.5, BH p=0.704, kaldı |
+| 1899 | 2026-10-18 12:31 | S6 | B | saat_02 ort≠0 (ana test) | SOL | 1h/1d | ort=%0.0202, yıllar %0.006/%0.044/%0.012, yüzdelik %60.7, BH p=0.704, kaldı |
+| 1900 | 2026-10-18 12:31 | S6 | B | saat_03 ort≠0 (ana test) | SOL | 1h/1d | ort=%0.0444, yıllar %0.064/%0.053/%0.017, yüzdelik %93.9, BH p=0.329, kaldı |
+| 1901 | 2026-10-18 12:31 | S6 | B | saat_04 ort≠0 (ana test) | SOL | 1h/1d | ort=%0.0412, yıllar %0.071/%0.055/%-0.003, yüzdelik %89.3, BH p=0.439, kaldı |
+| 1902 | 2026-10-18 12:31 | S6 | B | saat_05 ort≠0 (ana test) | SOL | 1h/1d | ort=%0.0059, yıllar %0.037/%0.005/%-0.024, yüzdelik %22.8, BH p=0.926, kaldı |
+| 1903 | 2026-10-18 12:31 | S6 | B | saat_06 ort≠0 (ana test) | SOL | 1h/1d | ort=%0.0102, yıllar %0.110/%-0.045/%-0.035, yüzdelik %32.7, BH p=0.885, kaldı |
+| 1904 | 2026-10-18 12:31 | S6 | B | saat_07 ort≠0 (ana test) | SOL | 1h/1d | ort=%-0.0167, yıllar %-0.054/%0.016/%-0.012, yüzdelik %58.3, BH p=0.704, kaldı |
+| 1905 | 2026-10-18 12:31 | S6 | B | saat_08 ort≠0 (ana test) | SOL | 1h/1d | ort=%0.0385, yıllar %0.062/%0.064/%-0.011, yüzdelik %89.1, BH p=0.439, kaldı |
+| 1906 | 2026-10-18 12:31 | S6 | B | saat_09 ort≠0 (ana test) | SOL | 1h/1d | ort=%0.0320, yıllar %0.088/%0.025/%-0.017, yüzdelik %86.3, BH p=0.443, kaldı |
+| 1907 | 2026-10-18 12:31 | S6 | B | saat_10 ort≠0 (ana test) | SOL | 1h/1d | ort=%-0.0189, yıllar %0.006/%-0.023/%-0.039, yüzdelik %58.9, BH p=0.704, kaldı |
+| 1908 | 2026-10-18 12:31 | S6 | B | saat_11 ort≠0 (ana test) | SOL | 1h/1d | ort=%0.0272, yıllar %0.052/%-0.003/%0.033, yüzdelik %79.3, BH p=0.48, kaldı |
+| 1909 | 2026-10-18 12:31 | S6 | B | saat_12 ort≠0 (ana test) | SOL | 1h/1d | ort=%-0.0309, yıllar %-0.023/%-0.052/%-0.018, yüzdelik %79.0, BH p=0.48, kaldı |
+| 1910 | 2026-10-18 12:31 | S6 | B | saat_13 ort≠0 (ana test) | SOL | 1h/1d | ort=%-0.0491, yıllar %-0.047/%-0.081/%-0.019, yüzdelik %88.6, BH p=0.439, kaldı |
+| 1911 | 2026-10-18 12:31 | S6 | B | saat_14 ort≠0 (ana test) | SOL | 1h/1d | ort=%-0.0129, yıllar %-0.076/%0.034/%0.004, yüzdelik %29.1, BH p=0.896, kaldı |
+| 1912 | 2026-10-18 12:31 | S6 | B | saat_15 ort≠0 (ana test) | SOL | 1h/1d | ort=%-0.0206, yıllar %-0.035/%-0.024/%-0.003, yüzdelik %42.8, BH p=0.831, kaldı |
+| 1913 | 2026-10-18 12:31 | S6 | B | saat_16 ort≠0 (ana test) | SOL | 1h/1d | ort=%-0.0518, yıllar %-0.108/%-0.034/%-0.014, yüzdelik %93.8, BH p=0.329, kaldı |
+| 1914 | 2026-10-18 12:31 | S6 | B | saat_17 ort≠0 (ana test) | SOL | 1h/1d | ort=%0.0455, yıllar %0.114/%0.049/%-0.027, yüzdelik %84.9, BH p=0.443, kaldı |
+| 1915 | 2026-10-18 12:31 | S6 | B | saat_18 ort≠0 (ana test) | SOL | 1h/1d | ort=%0.0132, yıllar %0.058/%0.011/%-0.030, yüzdelik %37.0, BH p=0.864, kaldı |
+| 1916 | 2026-10-18 12:31 | S6 | B | saat_19 ort≠0 (ana test) | SOL | 1h/1d | ort=%-0.0270, yıllar %-0.019/%-0.047/%-0.015, yüzdelik %68.4, BH p=0.633, kaldı |
+| 1917 | 2026-10-18 12:31 | S6 | B | saat_20 ort≠0 (ana test) | SOL | 1h/1d | ort=%0.0035, yıllar %-0.006/%0.006/%0.010, yüzdelik %11.8, BH p=0.951, kaldı |
+| 1918 | 2026-10-18 12:31 | S6 | B | saat_21 ort≠0 (ana test) | SOL | 1h/1d | ort=%0.0549, yıllar %0.140/%-0.010/%0.034, yüzdelik %96.6, BH p=0.322, kaldı |
+| 1919 | 2026-10-18 12:31 | S6 | B | saat_22 ort≠0 (ana test) | SOL | 1h/1d | ort=%0.0416, yıllar %0.068/%0.020/%0.037, yüzdelik %85.0, BH p=0.443, kaldı |
+| 1920 | 2026-10-18 12:31 | S6 | B | saat_23 ort≠0 (ana test) | SOL | 1h/1d | ort=%-0.0460, yıllar %-0.068/%0.004/%-0.074, yüzdelik %95.0, BH p=0.323, kaldı |
+| 1921 | 2026-10-18 12:31 | S6 | B | gun_0_pzt ort≠0 (ana test) | SOL | 1h/1d | ort=%0.0923, yıllar %1.067/%-1.117/%0.327, yüzdelik %18.9, BH p=0.938, kaldı |
+| 1922 | 2026-10-18 12:31 | S6 | B | gun_1_sal ort≠0 (ana test) | SOL | 1h/1d | ort=%-0.4673, yıllar %-1.118/%0.329/%-0.600, yüzdelik %85.2, BH p=0.443, kaldı |
+| 1923 | 2026-10-18 12:31 | S6 | B | gun_2_car ort≠0 (ana test) | SOL | 1h/1d | ort=%0.7136, yıllar %1.422/%0.991/%-0.286, yüzdelik %95.3, BH p=0.322, kaldı |
+| 1924 | 2026-10-18 12:31 | S6 | B | gun_3_per ort≠0 (ana test) | SOL | 1h/1d | ort=%-0.1968, yıllar %0.768/%-0.465/%-0.888, yüzdelik %40.3, BH p=0.831, kaldı |
+| 1925 | 2026-10-18 12:31 | S6 | B | gun_4_cum ort≠0 (ana test) | SOL | 1h/1d | ort=%0.3444, yıllar %0.583/%0.047/%0.401, yüzdelik %63.8, BH p=0.691, kaldı |
+| 1926 | 2026-10-18 12:31 | S6 | B | gun_5_cmt ort≠0 (ana test) | SOL | 1h/1d | ort=%0.2819, yıllar %0.752/%0.159/%-0.064, yüzdelik %70.2, BH p=0.633, kaldı |
+| 1927 | 2026-10-18 12:31 | S6 | B | gun_6_paz ort≠0 (ana test) | SOL | 1h/1d | ort=%0.1679, yıllar %0.101/%0.410/%-0.006, yüzdelik %40.6, BH p=0.831, kaldı |
+| 1928 | 2026-10-18 12:31 | S6 | B | abd_acilis ort≠0 (ana test) | SOL | 1h/1d | ort=%-0.0432, yıllar %-0.109/%-0.023/%0.003, yüzdelik %69.0, BH p=0.633, kaldı |
+| 1929 | 2026-10-18 12:31 | S6 | B | tanımlayıcı: ABD açılışı sonraki saat | BTC | 1h | ort=%-0.0089, yüzdelik %20.8 |
+| 1930 | 2026-10-18 12:31 | S6 | B | tanımlayıcı: ABD açılışı sonraki saat | ETH | 1h | ort=%-0.0615, yüzdelik %87.1 |
+| 1931 | 2026-10-18 12:31 | S6 | B | tanımlayıcı: ABD açılışı sonraki saat | SOL | 1h | ort=%-0.0410, yüzdelik %59.9 |
