@@ -5,6 +5,8 @@ Ana talimat: [kripto_arastirma_programi.md](kripto_arastirma_programi.md).
 
 Amaç: altı fikrin her birinde işlem maliyetinden sonra da yaşayan, tekrarlanabilir bir avantaj olup olmadığını tarafsız ölçmek. "Fırsat yok" da geçerli bir sonuçtur.
 
+**Yeni bir fikre başlamadan önce [BULGULAR.md](BULGULAR.md) dosyasını okuyun:** neyin denendiği, neden tutmadığı, düşülen tuzaklar, hangi verinin görüldüğü ve hızlı eleme listesi orada.
+
 ## Kurulum
 
 ```bash
